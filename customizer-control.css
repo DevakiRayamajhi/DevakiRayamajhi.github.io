@@ -1,0 +1,6 @@
+#accordion-section-blogslog_about_section,
+#accordion-section-blogslog,
+#customize-control-blogslog_theme_options-banner_search_enable,
+#accordion-section-blogslog_blog_section{
+    display: none !important;
+}

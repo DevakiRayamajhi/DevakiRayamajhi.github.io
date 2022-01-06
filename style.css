@@ -1,0 +1,220 @@
+/**
+Theme Name: Top Blogger
+Theme URI: https://themepalace.com/downloads/top-blogger/
+Author: themepalace
+Author URI: https://themepalace.com
+Version: 1.0.1
+Requires PHP: 5.6
+Tested up to: 5.8
+Requires at least: 5.0
+Template: blogslog
+Text Domain: top-blogger
+Description: Top Blogger ( Chlid Theme of Blogslog ) is a feature-rich and easy-to-use travel blog theme for professional bloggers. This theme is for you if you want to share your travel expertise, launch your fashion or lifestyle blog, share food recipes, or create beauty and makeup, coaching, or any other niche blog. The theme is mobile-friendly, SEO optimized, Schema friendly, and loads faster to help you rank your website higher on search engines. This theme comes with an Instagram section to flaunt your Instagram posts. Top Blogger is a fully responsive design that always remains mobile-friendly and will render perfectly on all devices.
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: translation-ready, custom-background, theme-options, custom-menu, threaded-comments, featured-images, footer-widgets, editor-style, right-sidebar, full-width-template, two-columns, grid-layout, custom-colors, custom-header, custom-logo, featured-image-header, blog, portfolio, entertainment
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+#colophon {
+    background-color: #000;
+    border-top: 2px solid #fff;
+    color: #fff;
+}
+
+#colophon ul li a,
+#colophon .widget-title, 
+#colophon .widgettitle,
+#colophon p{
+    color: #fff;
+}
+
+.site-info:before {
+    background-color: rgb(255 255 255 / 50%);
+}
+
+#featured-introduction-section .entry-container .search-form {
+    display: none;
+}
+.search-menu svg.icon-search {
+    fill: #000;
+}
+svg.icon-search, 
+svg.icon-close {
+    width: 15px;
+    height: 15px;
+}
+#call-to-action .view-more {
+    text-align: center;
+    margin-top: 50px;
+}
+#social-navigation .search-active svg.icon-close {
+    display: inline-block;
+}
+#social-navigation form.search-form {
+    min-width: 320px;
+}
+#sb_instagram .sb_instagram_header {
+    text-align: center;
+}
+#sb_instagram .sb_instagram_header .sbi_header_img {
+    float: none;
+    margin: 15px auto auto !important;
+    display: inline-block;
+}
+#sb_instagram .sb_instagram_header a {
+    float: none;
+    display: inline-block;
+}
+#sb_instagram #sbi_load .sbi_load_btn {
+    padding: 14px 30px;
+    margin: 30px 0;
+    font-size: 14px;
+    line-height: 26px;
+    min-height: 55px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 30px;
+    min-width: 161px;
+    border: none;
+    background-color: #fe463a;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#sb_instagram #sbi_load .sbi_load_btn:hover,
+#sb_instagram #sbi_load .sbi_load_btn:focus {
+    background-color: #08263d;
+    color: #fff;
+}
+
+#sb_instagram .sb_instagram_header .sbi_header_text.sbi_no_bio h3 {
+    font-size: 32px;
+}
+
+.btn:hover, 
+.btn:focus {
+    text-decoration: none;
+}
+
+#featured-introduction-section .overlay {
+    opacity: 0;
+}
+
+#masthead .social-icons li a {
+    line-height: 30px;
+}
+
+.site-info {
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+@media screen and (min-width: 992px){
+    #featured-posts article:before, #featured-posts article.slick-current + article.slick-active + article:before{
+        background-color: transparent;
+    }
+
+    #call-to-action.page-section {
+        padding: 0 0;
+    }
+
+    .page-section {
+        padding: 40px 0;
+    }
+
+}
+
+@media screen and (min-width: 567px){
+    .site-logo img {
+        max-height: 40px;            
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .main-navigation ul.nav-menu > li > a {
+        padding: 5px 13px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    #social-navigation {
+        max-width: 20%;
+        width: 20%;
+    }
+
+    .site-branding {
+        max-width: 20%;
+        width: 20%;
+        margin-right: 0px;
+    }
+
+    .main-navigation {
+        max-width: 60%;
+        width: 60%;
+        text-align: right;
+    }
+
+    #featured-introduction-section .entry-title {
+        margin-bottom: 0px;
+    }
+    #masthead {
+        background-color: #000000bb;
+    }
+    #featured-introduction-section .entry-container {
+        padding: 50px 0;
+        background: #000000bb;
+        top: auto;  
+        bottom:0;
+        right: 0;
+        left: 0;
+        -webkit-transform: translate(0%,0%);
+        -moz-transform: translate(0%,0%);
+        -ms-transform: translate(0%,0%);
+        -o-transform: translate(0%,0%);
+        transform: translate(0%,0%);
+    }
+    #social-navigation {
+        min-height: auto;
+    }
+    .main-navigation li.social-menu-item {
+        display: none;
+    }
+    #social-navigation .search-active .icon-search {
+        display: none;
+    }
+    #social-navigation #search {
+        position: absolute;
+        z-index: 30;
+        right: 0;
+        top: 100%;
+        margin-top: 5px;
+        display: none;
+    }
+    #social-navigation form.search-form {
+        border: 20px solid #000;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .menu-open #search {
+        display: block !important;
+    }
+    .site-branding {
+        float: left;
+        margin-top: 10px;
+    }
+}
